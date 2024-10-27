@@ -1,0 +1,16 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user-section {
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.user-section span {
+    font-weight: bold;
+}

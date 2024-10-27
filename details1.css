@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+   
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .categories {
+    margin-bottom: 30px;
+  }
+  
+  .categories h2 {
+    margin: 0 0 20px;
+
+  }
+  
+  .categories ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .category {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .category:hover {
+    transform: translateY(-5px);
+  }
+  
+  .category img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .category-info {
+    flex: 1;
+    padding: 20px;
+ 
+  }
+  
+  .category-info h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .category-info p {
+    margin: 0 0 15px;
+  }
+  
+  .book-now {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .book-now:hover {
+    background-color: #0056b3;
+  }
+  

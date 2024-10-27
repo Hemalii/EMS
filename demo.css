@@ -1,0 +1,28 @@
+.container {
+    background-image: url("BG2.jpeg");
+    display: flex;
+    align-items: center; /* Align items vertically */
+    background-image:no-repeat; 
+  }
+  
+  .image {
+    flex: 0.2; /* Grow to take available space */
+    margin-right: 20px; /* Adjust spacing between image and content */
+   /* height:100px;
+    width:100px;*/
+    margin:10px;
+    padding:10px;
+    vertical-align: middle;
+    max-width: 100%;
+  }
+  
+  .content {
+    flex: 1; /* Grow to take available space */
+
+  }
+  
+  button {
+    display: block; /* Make the button a block element */
+    margin-bottom: 10px; /* Adjust spacing between button and content */
+  }
+  

@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(og.jpeg);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bg-color-option {
+    display: flex;
+    align-items: center;
+}
+
+.bg-color-option label {
+    margin-right: 10px;
+}
+
+.sidebar {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    
+}
+
+.tablinks {
+    flex: 1;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid #0056b3;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    outline: none;
+    margin-right: 10px; /* Added */
+}
+.tablinks:last-child {
+    margin-right: 0; /* Added */
+}
+
+.tablinks:hover {
+    background-color: #0056b3;
+    border-color: #004080;
+}
+
+.tabcontent {
+    display: none;
+}
+
+.active {
+    background-color: #0056b3 !important;
+    border-color: #004080 !important;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.btn {
+    display: block;
+    width: 150px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+.dropdown {
+    width: 100%; /* Adjust width as needed */
+    padding: 10px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Border radius */
+    background-color: #fff; /* Background color */
+    color: #333; /* Text color */
+}
+
+.dropdown:hover {
+    border-color: #999; /* Border color on hover */
+}
+
+.dropdown:focus {
+    outline: none; /* Remove outline when focused */
+    border-color: #66afe9; /* Border color when focused */
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.5); /* Box shadow when focused */
+}
+
+/* Optional: Style the dropdown arrow */
+.dropdown::after {
+    content: "\25BC"; /* Unicode character for down arrow */
+    position: absolute;
+    top: calc(50% - 4px);
+    right: 10px;
+    color: #666; /* Arrow color */
+    pointer-events: none;
+}
+
+/* Optional: Style the dropdown arrow on hover */
+.dropdown:hover::after {
+    color: #333; /* Arrow color on hover */
+}
